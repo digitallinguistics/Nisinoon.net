@@ -25,6 +25,7 @@ module.exports = function configureEleventy(config) {
 
   config.addNunjucksAsyncFilter(`css`, convertLESS)
   config.addPassthroughCopy(`src/images`)
+  config.addPassthroughCopy(`src/fonts`)
   config.setLibrary(`md`, markdownParser)
 
   return {

@@ -1,6 +1,14 @@
-*:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+*:where(:not(iframe, canvas, details, img, summary, svg, svg *, symbol *, video)) {
   all    : unset;
   display: revert;
+}
+
+:focus-visible {
+  outline: revert;
+}
+
+:where([hidden]) {
+  display: none;
 }
 
 *,
@@ -11,6 +19,19 @@
 
 blockquote, dd, dt, figcaption, p, h1, h2, h3, h4, h5, h6, li {
   overflow-wrap: break-word;
+}
+
+blockquote,
+q {
+
+  quotes: none;
+
+  &::before,
+  &::after {
+    content: '';
+    content: none;
+  }
+
 }
 
 a,

@@ -1,16 +1,44 @@
+@import 'styles/Libertinus.less';
 @import 'styles/reset.less';
+@import 'styles/typography.less';
+@import 'styles/colors.less';
 
 body {
-  display       : flex;
-  flex-direction: column;
-  line-height   : 1.5;
-  min-height    : 100vh;
+
+  display        : flex;
+  flex-direction : column;
+  font-family    : var(--font);
+  line-height    : 1.5;
+  min-block-size : 100vh;
+  min-inline-size: 100vw;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--background-color-dark);
+    color           : var(--text-color-dark);
+  }
+
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--font-heading);
 }
 
 html {
-  block-size: 100%;
+
+  block-size     : 100%;
+  scroll-behavior: smooth;
+
+  @media (prefers-reduced-motion: reduce) {
+    scroll-behavior: auto;
+  }
+
 }
 
 main {
-  flex-grow: 1;
+  align-self     : center;
+  flex-direction : column;
+  flex-grow      : 1;
+  margin         : 1em;
+  max-inline-size: var(--measure);
 }
+
