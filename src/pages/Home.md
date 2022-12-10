@@ -44,7 +44,7 @@ This database will be a web-based, open-access, centralized resource for Algonqu
 [Nisinoon][nisinoon-entry] is an Ojibwe word meaning 'there are three'. We chose it to represent the tripartite structure of Algonquian words: initial-medial-final. Click on the word to learn more about the word and hear it pronounced.
 
 <figure>
-  <img alt='A rectangular textile hand made by Angela Waupochick for the Nisinoon project, displaying a top-down view of two trillium flowers at opposite corners of a pink square in the center, bordered by side views of two trillium flowers along the top and bottom. Photo by Rodney Schreiner.' src=/images/textile.jpg width=750>
+  <img alt='A rectangular textile hand made by Angela Waupochick for the Nisinoon project, displaying a top-down view of two trillium flowers at opposite corners of a pink square in the center, bordered by side views of two trillium flowers along the top and bottom. Photo by Rodney Schreiner.' src=/images/textile.jpg>
   <figcaption>
     <span>Trillium applique by Angela Waupochick</span>
     <span>Photo by Rodney Schreiner</span>

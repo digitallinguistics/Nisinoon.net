@@ -1,0 +1,37 @@
+*:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+  all    : unset;
+  display: revert;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+blockquote, dd, dt, figcaption, p, h1, h2, h3, h4, h5, h6, li {
+  overflow-wrap: break-word;
+}
+
+a,
+button,
+summary {
+  cursor: pointer;
+}
+
+ol, ul, menu {
+  list-style: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+iframe, object, img, picture, video, canvas, svg {
+  display  : block;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
