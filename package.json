@@ -1,0 +1,20 @@
+{
+  "name": "Nisinoon.net",
+  "version": "0.1.0",
+  "description": "The website for the Algonquian Components project.",
+  "keywords": [
+    "linguistics",
+    "Algonquian",
+    "morphology"
+  ],
+  "homepage": "https://Nisinoon.net",
+  "bugs": "https://github.com/dwhieb/Nisinoon.net/issues",
+  "license": "See license in LICENSE.md.",
+  "private": true,
+  "repository": "github:dwhieb/Nisinoon.net",
+  "scripts": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=19.0.0"
+  }
+}
