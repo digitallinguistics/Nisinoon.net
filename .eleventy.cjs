@@ -5,6 +5,7 @@ const less                 = require(`less`)
 
 const lessOptions = {
   paths: [
+    `src/classes`,
     `src/layouts/main`,
     `src/pages`,
   ],

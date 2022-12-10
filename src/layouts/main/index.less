@@ -1,7 +1,12 @@
+// global styles
 @import 'styles/Libertinus.less';
 @import 'styles/reset.less';
 @import 'styles/typography.less';
 @import 'styles/colors.less';
+
+// components used in main layout
+@import 'section-header.less';
+@import 'markdown.less';
 
 body {
 
@@ -20,6 +25,11 @@ body {
 
 :is(h1, h2, h3, h4, h5, h6) {
   font-family: var(--font-heading);
+}
+
+.footer {
+  margin    : 1em;
+  text-align: center;
 }
 
 html {

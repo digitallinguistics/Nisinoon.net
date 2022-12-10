@@ -61,20 +61,20 @@ The [Algonquian Components Bibliography](/bibliography) is a set of resources us
 
 ## Former Team Members
 
-- Andrea Cudworth, *Project Assistant* (University of Wisconsin-Madison), 2018–2019
+- Andrea Cudworth, *Project Assistant* (University of Wisconsin-Madison), 2018-2019
 - Thaddeus A. Dockery ("Tad"), *Developer* (Wisconsin Historical Society), 2019
 - Rachel Fedorchak, *Undergraduate Research Assistant*, *Bibliographer* (University of Wisconsin-Madison), 2020-2021
 - Tong Jiao, *Undergraduate Research Assistant*, *Developer* (University of Wisconsin-Madison), 2021-2022
 - Alison Jozwiak, *Project Assistant* (University of Wisconsin-Madison), 2020
 - Vade Kamenitsa-Hale, *Undergraduate Research Assistant*, *Developer* (University of Wisconsin-Madison), 2020-2021
-- Anushri Kartik-Narayan, *Bibliographer* (University of Wisconsin-Madison), 2018–2019
+- Anushri Kartik-Narayan, *Bibliographer* (University of Wisconsin-Madison), 2018-2019
 - Chloe Knope, *Intern* (College of Menominee Nation), 2022
 - Naneque LaTender, *Intern* (College of Menominee Nation), 2021
 - Sarah Lundquist, *Project Assistant* (University of Wisconsin-Madison), 2019
 - Gabrielle Mistretta, *Project Assistant* (University of Wisconsin-Madison), 2020-2022
 - Eleanor Sand, *Undergraduate Research Assistant*, *Bibliographer* (University of Wisconsin-Madison), 2021-2022
-- Savana Stauss, *Bibliographer* (University of Wisconsin-Madison), 2018–2019
-- Brock Wroblewski, *Developer* (University of Wisconsin-Madison), 2018–2020
+- Savana Stauss, *Bibliographer* (University of Wisconsin-Madison), 2018-2019
+- Brock Wroblewski, *Developer* (University of Wisconsin-Madison), 2018-2020
 
 <!-- LINKS -->
 [nisinoon-entry]: https://ojibwe.lib.umn.edu/main-entry/nisinoon-vii
