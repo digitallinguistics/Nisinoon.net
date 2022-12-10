@@ -15,10 +15,10 @@
   "type": "module",
   "scripts": {
     "prebuild": "node build/prebuild.js",
-    "build"   : "npx @11ty/eleventy --config=.eleventy.cjs",
+    "build": "npx @11ty/eleventy --config=.eleventy.cjs",
     "prestart": "node build/prebuild.js",
-    "start"   : "npx @11ty/eleventy --config=.eleventy.cjs --serve --port=3002",
-    "test"    : "mocha"
+    "start": "npx @11ty/eleventy --config=.eleventy.cjs --serve --port=3002",
+    "test": "mocha"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
@@ -28,6 +28,7 @@
     "eslint": "^8.29.0",
     "eslint-plugin-chai-friendly": "^0.7.2",
     "fs-extra": "^11.1.0",
+    "markdown-it": "^13.0.1",
     "mocha": "^10.1.0"
   },
   "engines": {
