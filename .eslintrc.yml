@@ -1,0 +1,9 @@
+extends:
+  - '@digitallinguistics/eslint-config'
+  - plugin:chai-friendly/recommended
+
+env:
+  mocha: true
+
+plugins:
+  - chai-friendly
