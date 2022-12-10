@@ -12,8 +12,14 @@
   "license": "See license in LICENSE.md.",
   "private": true,
   "repository": "github:dwhieb/Nisinoon.net",
-  "scripts": {},
-  "devDependencies": {},
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0"
+  },
   "engines": {
     "node": ">=19.0.0"
   }
