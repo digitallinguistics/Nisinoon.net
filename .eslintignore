@@ -1,0 +1,2 @@
+# ESLint ignores dotfiles by default. This unignores it.
+!.eleventy.cjs
