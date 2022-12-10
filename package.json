@@ -25,6 +25,7 @@
     "@11ty/eleventy": "^1.0.2",
     "@digitallinguistics/eslint-config": "^0.2.0",
     "chai": "^4.3.7",
+    "citation-js": "^0.6.4",
     "eslint": "^8.29.0",
     "eslint-plugin-chai-friendly": "^0.7.2",
     "fs-extra": "^11.1.0",
