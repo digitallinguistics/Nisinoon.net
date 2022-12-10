@@ -5,12 +5,11 @@
 
 body {
 
-  display        : flex;
-  flex-direction : column;
-  font-family    : var(--font);
-  line-height    : 1.5;
-  min-block-size : 100vh;
-  min-inline-size: 100vw;
+  display       : flex;
+  flex-direction: column;
+  font-family   : var(--font);
+  line-height   : 1.4;
+  min-block-size: 100vh;
 
   @media (prefers-color-scheme: dark) {
     background-color: var(--background-color-dark);
@@ -26,6 +25,7 @@ body {
 html {
 
   block-size     : 100%;
+  font-size      : 115%;
   scroll-behavior: smooth;
 
   @media (prefers-reduced-motion: reduce) {
@@ -42,3 +42,36 @@ main {
   max-inline-size: var(--measure);
 }
 
+.nav {
+
+  align-items     : center;
+  background-color: var(--plum);
+  color           : white;
+  display         : flex;
+  flex-direction  : column;
+  font-family     : var(--font-heading);
+  font-size       : 1.15em;
+  font-weight     : bold;
+
+  [aria-current] {
+    background-color: var(--plum-light);
+  }
+
+  a {
+
+    display: flex;
+    padding: var(--text-padding-lg);
+
+    &:hover {
+      text-decoration        : underline;
+      text-underline-position: under;
+    }
+
+  }
+
+  ul {
+    display  : flex;
+    flex-wrap: wrap;
+  }
+
+}
