@@ -1,6 +1,9 @@
-ISC License
+- **Code:** The code in this repository is copyrighted to the developer (Daniel W. Hieber) and made available under the ISC license (see below).
+- **Content:** The prose/copy for this website is copyright to the authors (Monica Macaulay & Hunter Lockwood), and should not be copied, distributed, or modified without their express permission.
 
-Copyright (c) [year] [fullname]
+# ISC License
+
+Copyright (c) 2018–2022 Daniel W. Hieber
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
