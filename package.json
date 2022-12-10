@@ -14,12 +14,11 @@
   "repository": "github:dwhieb/Nisinoon.net",
   "type": "module",
   "scripts": {
-    "prebuild": "npm run empty-dist-dir",
-    "build": "npx @11ty/eleventy --config=.eleventy.cjs",
-    "empty-dist-dir": "node build/emptyDistDir.js",
-    "prestart": "npm run empty-dist-dir",
-    "start": "npx @11ty/eleventy --config=.eleventy.cjs --serve --port=3002",
-    "test": "mocha"
+    "prebuild": "node build/prebuild.js",
+    "build"   : "npx @11ty/eleventy --config=.eleventy.cjs",
+    "prestart": "node build/prebuild.js",
+    "start"   : "npx @11ty/eleventy --config=.eleventy.cjs --serve --port=3002",
+    "test"    : "mocha"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
