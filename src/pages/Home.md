@@ -1,5 +1,6 @@
 ---
 permalink: /
+title:     Home
 ---
 
 # Home

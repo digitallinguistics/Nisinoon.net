@@ -2,10 +2,12 @@ module.exports = function(config) {
 
   return {
     dir: {
-      input: `src`,
-      output: `dist`,
+      data   : `data`,
+      input  : `src`,
+      layouts: `layouts`,
+      output : `dist`,
     },
-    templateFormats: [`md`],
+    templateFormats: [`md`, `njk`],
   }
 
 }
