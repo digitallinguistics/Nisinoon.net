@@ -14,9 +14,12 @@
   "repository": "github:dwhieb/Nisinoon.net",
   "type": "module",
   "scripts": {
+    "build": "npx @11ty/eleventy --config=.eleventy.cjs",
+    "start": "npx @11ty/eleventy --config=.eleventy.cjs --serve --port=3002",
     "test": "mocha"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
     "@digitallinguistics/eslint-config": "^0.2.0",
     "chai": "^4.3.7",
     "eslint": "^8.29.0",
@@ -24,6 +27,6 @@
     "mocha": "^10.1.0"
   },
   "engines": {
-    "node": ">=19.0.0"
+    "node": ">=18.0.0"
   }
 }
