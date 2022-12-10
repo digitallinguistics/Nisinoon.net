@@ -6,7 +6,11 @@ import {
   join as joinPath,
 } from 'path'
 
-const __dirname = getDirname(fileURLToPath(import.meta.url))
-const distPath  = joinPath(__dirname, `../dist`)
+export default async function emptyDistDir() {
 
-await emptyDir(distPath)
+  const __dirname = getDirname(fileURLToPath(import.meta.url))
+  const distPath = joinPath(__dirname, `../dist`)
+
+  await emptyDir(distPath)
+
+}
