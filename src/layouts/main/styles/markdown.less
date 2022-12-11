@@ -1,3 +1,5 @@
+@import 'document/document.less';
+
 .md {
 
   a {
@@ -35,7 +37,8 @@
   }
 
   :is(h2, h3, h4, h5, h6) {
-    padding-block: 0.5em 0em;
+    padding-block : 0.5em 0em;
+    padding-inline: 0.5rem;
   }
 
   h1 {
@@ -45,6 +48,11 @@
 
   h2 {
     font-size  : xx-large;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size  : x-large;
     font-weight: bold;
   }
 
@@ -62,7 +70,7 @@
     list-style: decimal outside none;
   }
 
-  p {
+  > p, .p {
     padding: var(--text-padding);
   }
 

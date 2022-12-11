@@ -1,12 +1,14 @@
 /* eslint-env commonjs */
 
-const createMarkdownParser = require(`markdown-it`)
-const less                 = require(`less`)
-const markdownAnchors      = require(`markdown-it-anchor`)
-const markdownAttributes   = require(`markdown-it-attrs`)
+const createMarkdownParser   = require(`markdown-it`)
+const less                   = require(`less`)
+const markdownAnchors        = require(`markdown-it-anchor`)
+const markdownAttributes     = require(`markdown-it-attrs`)
+const markdownBracketedSpans = require(`markdown-it-bracketed-spans`)
 
 const lessOptions = {
   paths: [
+    `node_modules/@digitallinguistics/styles/components`,
     `src/layouts/main/styles`,
     `src/pages`,
   ],
@@ -18,6 +20,7 @@ const markdownParser = createMarkdownParser({
   typographer: true,
 })
 .use(markdownAttributes)
+.use(markdownBracketedSpans)
 .use(markdownAnchors)
 
 function convertLESS(input, cb) {
