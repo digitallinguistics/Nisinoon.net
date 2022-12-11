@@ -1,4 +1,5 @@
 ---
+class:     research-page
 permalink: /research/
 title:     Research
 ---

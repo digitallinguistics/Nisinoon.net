@@ -1,20 +1,30 @@
 ---
+class:     home-page
 permalink: /
 title:     Home
 ---
 
+{% capture less %}
+  {% include './Home.less' %}
+{% endcapture %}
+
+<style>
+  {{ less | css }}
+</style>
+
 # Nisinoon
 
-A multilingual dictionary database of Algonquian derivational morphemes
+A multilingual dictionary database of Algonquian derivational morphemes {.subtitle}
 
-![stylized trillium flower icon](/images/trillium.svg)
+![stylized trillium flower icon](/images/trillium.svg) {.trillium}
 
-This project is an NSF-funded cross-linguistic database of the components which make up words in Algonquian languages. There are two main goals:
+This project is an NSF-funded cross-linguistic database of the components which make up words in Algonquian languages. There are two main goals: {.intro}
 
 1. To provide tribes with a source for lexical expansion for their language revitalization/reclamation projects.
 2. To provide a basis for comprehensive reconstruction of Proto-Algonquian.
+{.intro}
 
-This database will be a web-based, open-access, centralized resource for Algonquian word components, providing community members and linguists with a set of data that has previously been difficult to access.
+This database will be a web-based, open-access, centralized resource for Algonquian word components, providing community members and linguists with a set of data that has previously been difficult to access. {.intro}
 
 ## Project Team
 
@@ -39,17 +49,17 @@ This database will be a web-based, open-access, centralized resource for Algonqu
 - Natalie Weber, Yale University
 - Arok Wolvengrey, First Nations University of Canada
 
-## What does Nisinoon mean?
-
-[Nisinoon][nisinoon-entry] is an Ojibwe word meaning 'there are three'. We chose it to represent the tripartite structure of Algonquian words: initial-medial-final. Click on the word to learn more about the word and hear it pronounced.
-
-<figure>
+<figure class=textile>
   <img alt='A rectangular textile hand made by Angela Waupochick for the Nisinoon project, displaying a top-down view of two trillium flowers at opposite corners of a pink square in the center, bordered by side views of two trillium flowers along the top and bottom. Photo by Rodney Schreiner.' src=/images/textile.jpg>
   <figcaption>
     <span>Trillium applique by Angela Waupochick</span>
     <span>Photo by Rodney Schreiner</span>
   </figcaption>
 </figure>
+
+## What does Nisinoon mean?
+
+[Nisinoon][nisinoon-entry] is an Ojibwe word meaning 'there are three'. We chose it to represent the tripartite structure of Algonquian words: initial-medial-final. Click on the word to learn more about the word and hear it pronounced.
 
 ## Basics of Algonquian Word Structure
 
@@ -58,6 +68,10 @@ This database will be a web-based, open-access, centralized resource for Algonqu
 ## Bibliography
 
 The [Algonquian Components Bibliography](/bibliography) is a set of resources used in the Nisinoon project to collect data on derivational morphemes in Algonquian languages. It was compiled by [Monica Macaulay][website-monica] (University of Wisconsin-Madison) and [Hunter Lockwood][website-hunter] (Myaamia Center, Miami University) with the help of Rachel Fedorchak, Anushri Kartik-Narayan, Eleanor Sand, and Savana Stauss. Please let us know if you find any errors in the references.
+
+If you see an error in this bibliography, or would like to suggest any additions, please email Monica Macaulay at [mmacaula@wisc.edu](mailto:mmacaula@wisc.edu).
+
+[See the Algonquian Components Bibliography here.](/bibliography)
 
 ## Former Team Members
 

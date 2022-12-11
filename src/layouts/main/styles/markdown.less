@@ -1,0 +1,70 @@
+.md {
+
+  a {
+
+    color                  : var(--berry-blue);
+    font-weight            : bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:visited {
+
+      color: var(--plum);
+
+      @media (prefers-color-scheme: dark) {
+        color: var(--plum-light);
+      }
+
+    }
+
+  }
+
+  abbr[title] {
+    cursor         : help;
+    text-decoration: underline currentcolor dotted;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  :is(h2, h3, h4, h5, h6) {
+    padding-block: 0.5em 0em;
+  }
+
+  h1 {
+    font-size : xxx-large;
+    text-align: center;
+  }
+
+  h2 {
+    font-size  : xx-large;
+    font-weight: bold;
+  }
+
+  li {
+    padding: 0.125em 0.25em;
+  }
+
+  .list {
+    margin-inline-start: 1.5em;
+    padding            : var(--text-padding-lg);
+  }
+
+  ol {
+    .list;
+    list-style: decimal outside none;
+  }
+
+  p {
+    padding: var(--text-padding);
+  }
+
+  ul {
+    .list;
+    list-style: disc outside none;
+  }
+
+}

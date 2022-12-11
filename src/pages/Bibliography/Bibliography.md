@@ -1,4 +1,5 @@
 ---
+class:     bibliography-page
 permalink: /bibliography/
 title:     Bibliography
 ---

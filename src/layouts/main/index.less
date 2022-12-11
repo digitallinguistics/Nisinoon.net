@@ -1,20 +1,18 @@
-// global styles
-@import 'styles/Libertinus.less';
-@import 'styles/reset.less';
-@import 'styles/typography.less';
-@import 'styles/colors.less';
-
-// components used in main layout
-@import 'section-header.less';
+@import 'Libertinus.less';
+@import 'reset.less';
+@import 'typography.less';
+@import 'colors.less';
 @import 'markdown.less';
 
 body {
 
-  display       : flex;
-  flex-direction: column;
-  font-family   : var(--font);
-  line-height   : 1.4;
-  min-block-size: 100vh;
+  align-items            : center;
+  display                : flex;
+  flex-direction         : column;
+  font-family            : var(--font);
+  line-height            : 1.4;
+  min-block-size         : 100vh;
+  text-underline-position: under;
 
   @media (prefers-color-scheme: dark) {
     background-color: var(--background-color-dark);
@@ -28,8 +26,9 @@ body {
 }
 
 .footer {
-  margin    : 1em;
-  text-align: center;
+  margin         : 1em;
+  max-inline-size: var(--measure);
+  text-align     : center;
 }
 
 html {
@@ -45,7 +44,6 @@ html {
 }
 
 main {
-  align-self     : center;
   flex-direction : column;
   flex-grow      : 1;
   margin         : 1em;
@@ -54,6 +52,7 @@ main {
 
 .nav {
 
+  align-self      : stretch;
   align-items     : center;
   background-color: var(--plum);
   color           : white;
