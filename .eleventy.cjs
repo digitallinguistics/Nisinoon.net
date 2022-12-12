@@ -37,6 +37,7 @@ module.exports = function configureEleventy(config) {
   config.addLiquidFilter(`css`, convertLESS)
   config.addPassthroughCopy(`src/images`)
   config.addPassthroughCopy(`src/fonts`)
+  config.addPassthroughCopy({ 'src/pages/Bibliography/bibliography.pdf': `bibliography/bibliography.pdf` })
   config.setLibrary(`md`, markdownParser)
 
   return {

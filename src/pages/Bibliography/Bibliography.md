@@ -14,6 +14,8 @@ If you see an error in this bibliography, or would like to suggest any additions
 
 ## References
 
+[Download this bibliography as a PDF.](/bibliography/bibliography.pdf)
+
 (last updated {{ "today" | date: "%B %e, %Y" }})
 
 {% include './entries.html' %}
