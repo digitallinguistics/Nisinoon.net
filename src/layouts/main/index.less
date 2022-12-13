@@ -37,6 +37,7 @@ html {
   block-size     : 100%;
   font-size      : 115%;
   scroll-behavior: smooth;
+  scroll-padding-top: 2.4em; // height of site nav
 
   @media (prefers-reduced-motion: reduce) {
     scroll-behavior: auto;
@@ -53,15 +54,17 @@ main {
 
 .nav {
 
-  align-self      : stretch;
-  align-items     : center;
-  background-color: var(--plum);
-  color           : white;
-  display         : flex;
-  flex-direction  : column;
-  font-family     : var(--font-heading);
-  font-size       : 1.15em;
-  font-weight     : bold;
+  align-self       : stretch;
+  align-items      : center;
+  background-color : var(--plum);
+  color            : white;
+  display          : flex;
+  flex-direction   : column;
+  font-family      : var(--font-heading);
+  font-size        : 1.15em;
+  font-weight      : bold;
+  inset-block-start: 0;
+  position         : sticky;
 
   [aria-current] {
     background-color: var(--plum-light);

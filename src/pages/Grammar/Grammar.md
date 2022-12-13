@@ -18,13 +18,13 @@ title:     Algonquian Word-Structure Basics
 
 Monica Macaulay {.author}
 
-## Introduction
+## Introduction {#introduction}
 
 This document provides an overview of word structure in Algonquian languages.
 
 Caveat: The view in this document is influenced by my familiarity with some of the Central Algonquian languages (especially Menominee); it may not be quite right for some of the other languages, especially the Plains languages, which are really different. But this should work for most of the languages. I will make updates as I learn more! (Input appreciated!)
 
-## Contents
+## Contents {#contents}
 
 <!-- TOC -->
 
@@ -42,7 +42,7 @@ Caveat: The view in this document is influenced by my familiarity with some of t
 
 <!-- /TOC -->
 
-## Lexical Categories (Parts of Speech) {#lexical-categories}
+## Lexical Categories (Parts of Speech) {% include 'backlink' %} {#lexical-categories}
 
 The classic way to divide up Algonquian lexical categories at the very highest level is according to whether they inflect or not (see next section for the distinction between [Derivation vs. Inflection](#derivation-vs-inflection)):
 
@@ -56,7 +56,7 @@ Sometimes a few other things are included under the "do inflect" heading, e.g., 
 
 Notice that there aren't any adjectives or adverbs (although some authors do use these labels).
 
-## Derivation vs. Inflection
+## Derivation vs. Inflection {% include 'backlink' %} {#derivation-vs-inflection}
 
 The distinction is a little fuzzy around the edges, but basically:
 
@@ -67,7 +67,7 @@ In Algonquian languages you pretty much always have to have inflection on verbs 
 
 This project is concerned with the derivational morphemes of Algonquian.
 
-## Components
+## Components {% include 'backlink' %} {#components}
 
 The basic derivational morphemes in Algonquian languages are called <dfn>components</dfn>, and Nisinoon is creating a cross-Algonquian dictionary of these components. There are three types, which correspond to where in the stem they appear. The following is from my in-progress [Menominee grammar](#MacaulayPrep).
 
@@ -196,7 +196,7 @@ Examples (components in slashes in the third line; this line does not include in
 
 Components occur in all lexical categories, not just verbs. But the particles tend to be fairly simple in structure, and the nouns are generally simpler than the verbs. It's in the verbs that you see the really complex combinations.
 
-## Hyphenation
+## Hyphenation {% include 'backlink' %} {#hyphenation}
 
 Our standard for hyphens is:
 
@@ -206,7 +206,7 @@ Our standard for hyphens is:
 
 However, other authors don't necessarily follow this. We enter the data their way but convert it to the standard above in the project orthography.
 
-## Animacy
+## Animacy {% include 'backlink' %} {#animacy}
 
 Nouns in Algonquian languages can be animate or inanimate.
 
@@ -218,7 +218,7 @@ Nouns in Algonquian languages can be animate or inanimate.
 
 - Verbs agree with subjects or objects in animacy; see next section.
 
-## Verb Types
+## Verb Types {% include 'backlink' %} {#verb-types}
 
 Verbs in Algonquian languages are categorized in two ways:
 
@@ -270,7 +270,7 @@ This matters because there are different verb paradigms (sets of endings) for ea
 
 Some of the types have subcategories, which are usually numbered — the AI and TI verbs have these, so you'll see e.g. AI2 or TI1. In some of the languages you'll see, e.g., TI1a and TI1b.
 
-## Paired Verb Stems
+## Paired Verb Stems {% include 'backlink' %} {#paired-verb-stems}
 
 Usually, verbs come in pairs — AI and II, TA and TI. For example, in Menominee:
 
@@ -298,7 +298,7 @@ You can see that they differ, but only a bit. Usually the difference comes in th
 
 In some cases you find sets of four, where all four verb types are based on a common initial, e.g. Menominee [maehkīhotaew]{.inex} [it is painted red]{.tln} (II), [maehkīhosow]{.inex} [it (animate) is painted red]{.tln} (AI), [maehkīhonaew]{.inex} [s/he paints him, her, it (animate) red]{.tln} (TA), [maehkīhotaw]{.inex} [s/he paints it red]{.tln} (TI).
 
-## Primary vs. Secondary Derivation
+## Primary vs. Secondary Derivation {% include 'backlink' %} {#primary-vs-secondary-derivation}
 
 What was described in the [Components](#components) section is what is known as <dfn>primary derivation</dfn>, where an initial, an optional medial, and a final form a stem. But you can take a stem created this way and add another final to it to create a larger stem — this is called <dfn>secondary derivation</dfn>. (Authors use different terms for what I’m calling the stem here; some call it an initial or a derived initial.) These are illustrated below (again, from my Menominee grammar (Macaulay, [in prep](#MacaulayPrep)):
 
@@ -381,7 +381,7 @@ Following are some examples from Menominee:
 
 These examples represent the standard kind of secondary derivation, where a final is added to a stem. Very rarely, you’ll find someone who allows secondary derivation to add a medial as well as a final (e.g. Drapeau [1980](#Drapeau1980): 317).
 
-## Formatives
+## Formatives {% include 'backlink' %} {#formatives}
 
 Traditionally, Algonquianists have recognized another level or layer of derivation, saying that components can themselves be made up of more than one piece. There's no standard name for this sub-component element; we've adopted the word <dfn>formative</dfn> for it.
 
@@ -427,7 +427,7 @@ For authors who divide finals into two parts, a concrete part and an abstract pa
 
 The problem we have with the notion of formative has to do with the definition of <dfn>morpheme</dfn>. A <dfn>morpheme</dfn> is supposed to be the smallest unit of sound and meaning or function. But if components are morphemes, then what are the formatives? Morphemes shouldn't be made up of smaller parts, especially meaningful parts (like with the premedials). But if the formatives are the morphemes, then what status does the component have? If it's not a morpheme, what is it?
 
-## Deverbal Formations
+## Deverbal Formations {% include 'backlink' %} {#deverbal-formations}
 
 <dfn>Deverbal</dfn> in the sense it is used here means "formed from a word" (<em>not</em> formed from a verb).
 
@@ -437,7 +437,7 @@ For example, Bloomfield believed that a number of finals were derived from stems
 
 Although we believe that this kind of relationship is purely historical, when an author says that something is deverbal, we make a note of it, and note the source, if they give it.
 
-## References
+## References {% include 'backlink' %} {#references}
 
 - Bloomfield, Leonard. 1962. <cite>The Menomini language</cite>. New Haven: Yale University Press. {#Bloomfield1962}
 - Bloomfield, Leonard. 1975. <cite>Menominee Lexicon</cite>. Ed. Charles F. Hockett. Milwaukee Public Museum Publications in Anthropology and History No. 3. {#Bloomfield1975}

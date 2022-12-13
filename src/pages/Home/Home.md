@@ -18,15 +18,32 @@ A multilingual dictionary database of Algonquian derivational morphemes {.subtit
 
 ![stylized trillium flower icon](/images/trillium.svg) {.trillium}
 
-This project is an NSF-funded cross-linguistic database of the components which make up words in Algonquian languages. There are two main goals: {.intro}
+<section class=intro>
 
-1. To provide tribes with a source for lexical expansion for their language revitalization/reclamation projects.
-2. To provide a basis for comprehensive reconstruction of Proto-Algonquian.
-{.intro}
+  <h2 id=introduction>Introduction</h2>
 
-This database will be a web-based, open-access, centralized resource for Algonquian word components, providing community members and linguists with a set of data that has previously been difficult to access. {.intro}
+  <p>This project is an NSF-funded cross-linguistic database of the components which make up words in Algonquian languages. There are two main goals:</p>
 
-## Project Team
+  <ol>
+    <li>To provide tribes with a source for lexical expansion for their language revitalization/reclamation projects.</li>
+    <li>To provide a basis for comprehensive reconstruction of Proto-Algonquian.</li>
+  </ol>
+
+  <p>This database will be a web-based, open-access, centralized resource for Algonquian word components, providing community members and linguists with a set of data that has previously been difficult to access.</p>
+
+</section>
+
+## Contents {#contents}
+
+- [Introduction](#introduction)
+- [Project Team](#project-team)
+- [Advisory Board](#advisory-board)
+- [What does Nisinoon mean?](#nisinoon-meaning)
+- [Basics of Algonquian Word Structure](#grammar)
+- [Algonquian Components Bibliography](#bibliography)
+- [Former Team Members](#former-team-members)
+
+## Project Team {% include 'backlink' %} {#project-team}
 
 - [Monica Macaulay][website-monica], *Project Lead* (University of Wisconsin-Madison)
 - [Hunter Lockwood][website-hunter], *Co-Project Lead* (The Myaamia Center, and University of Wisconsin-Madison)
@@ -35,7 +52,7 @@ This database will be a web-based, open-access, centralized resource for Algonqu
 - Leksi Scarr, *<abbr title='Research Experience for Undergraduates'>REU</abbr> Undergraduate Assistant* (University of Wisconsin-Madison)
 - Jennifer Stoughton, *<abbr title='Research Experience for Undergraduates'>REU</abbr> Undergraduate Assistant* (University of Wisconsin-Madison)
 
-## Advisory Board
+## Advisory Board {% include 'backlink' %} {#advisory-board}
 
 - Sarah Babinski, Yale University
 - jessie little doe baird, Mashpee Wampanoag
@@ -57,15 +74,15 @@ This database will be a web-based, open-access, centralized resource for Algonqu
   </figcaption>
 </figure>
 
-## What does Nisinoon mean?
+## What does Nisinoon mean? {% include 'backlink' %} {#nisinoon-meaning}
 
 [Nisinoon][nisinoon-entry] is an Ojibwe word meaning 'there are three'. We chose it to represent the tripartite structure of Algonquian words: initial-medial-final. Click on the word to learn more about the word and hear it pronounced.
 
-## Basics of Algonquian Word Structure
+## Basics of Algonquian Word Structure {% include 'backlink' %} {#grammar}
 
 [Read an overview of word structure in Algonquian languages here.](/grammar)
 
-## Bibliography
+## Algonquian Components Bibliography {% include 'backlink' %} {#bibliography}
 
 The [Algonquian Components Bibliography](/bibliography) is a set of resources used in the Nisinoon project to collect data on derivational morphemes in Algonquian languages. It was compiled by [Monica Macaulay][website-monica] (University of Wisconsin-Madison) and [Hunter Lockwood][website-hunter] (Myaamia Center, Miami University) with the help of Rachel Fedorchak, Anushri Kartik-Narayan, Eleanor Sand, and Savana Stauss. Please let us know if you find any errors in the references.
 
@@ -73,7 +90,7 @@ If you see an error in this bibliography, or would like to suggest any additions
 
 [See the Algonquian Components Bibliography here.](/bibliography)
 
-## Former Team Members
+## Former Team Members {% include 'backlink' %} {#former-team-members}
 
 - Andrea Cudworth, *Project Assistant* (University of Wisconsin-Madison), 2018-2019
 - Thaddeus A. Dockery ("Tad"), *Developer* (Wisconsin Historical Society), 2019

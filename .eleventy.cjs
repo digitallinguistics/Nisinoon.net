@@ -2,7 +2,6 @@
 
 const createMarkdownParser   = require(`markdown-it`)
 const less                   = require(`less`)
-const markdownAnchors        = require(`markdown-it-anchor`)
 const markdownAttributes     = require(`markdown-it-attrs`)
 const markdownBracketedSpans = require(`markdown-it-bracketed-spans`)
 
@@ -21,7 +20,6 @@ const markdownParser = createMarkdownParser({
 })
 .use(markdownAttributes)
 .use(markdownBracketedSpans)
-.use(markdownAnchors)
 
 function convertLESS(input, cb) {
   return less.render(input, lessOptions)
