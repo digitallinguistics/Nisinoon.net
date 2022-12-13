@@ -1,4 +1,4 @@
-name: gh-pages
+name: deploy
 
 on:
   push:
@@ -51,6 +51,14 @@ jobs:
           github_token:   ${{ secrets.GITHUB_TOKEN }}
           publish_branch: zenodo
           publish_dir:    ./dist/bibliography
+
+      - name: Create release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts:               dist/bibliography/bibliography.pdf
+          artifactContentType:     application/pdf
+          artifactErrorsFailBuild: true
+          commit:                  zenodo
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
