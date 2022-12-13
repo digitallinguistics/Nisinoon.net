@@ -14,6 +14,7 @@
   "repository": "github:dwhieb/Nisinoon.net",
   "type": "module",
   "scripts": {
+    "bib": "node bin/getBibliography.js",
     "prebuild": "node build/prebuild.js",
     "build": "npx @11ty/eleventy --config=.eleventy.cjs",
     "prestart": "node build/prebuild.js",
@@ -35,6 +36,8 @@
     "markdown-it-attrs": "^4.1.6",
     "markdown-it-bracketed-spans": "^1.0.1",
     "mocha": "^10.2.0",
+    "parse-link-header": "^2.0.0",
+    "progress": "^2.0.3",
     "stylelint": "^14.16.0"
   },
   "engines": {
