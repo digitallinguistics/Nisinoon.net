@@ -8,7 +8,7 @@ import {
 
 const __dirname = getDirname(fileURLToPath(import.meta.url))
 const htmlPath  = joinPath(__dirname, `../dist/bibliography/index.html`)
-const pdfPath   = joinPath(__dirname, `../dist/bibliography/test.pdf`)
+const pdfPath   = joinPath(__dirname, `../dist/bibliography/bibliography.pdf`)
 
 export default function generatePDF() {
   return prince()
