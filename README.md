@@ -18,6 +18,10 @@ To edit the prose/copy on the website:
 
 ## How to update the bibliography
 
+### Automatically
+
+The bibliography updates automatically every Monday at 1:00 a.m. UTC (but only when there are new updates).
+
 ### Semi-Manually
 
 1. Go to <https://github.com/dwhieb/Nisinoon.net/actions/workflows/gh-pages.yml>.

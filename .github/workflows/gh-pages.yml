@@ -3,6 +3,8 @@ name: gh-pages
 on:
   push:
     branches: ["main"]
+  schedule:
+    - cron: '00 01 * * MON' # every Monday @ 1:00 a.m.
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
