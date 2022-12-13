@@ -8,8 +8,7 @@ title:     Bibliography
   {% include './print.less' %}
 {% endcapture %}
 
-<!-- TODO: add media=print -->
-<style>
+<style media=print>
   {{ less | css }}
 </style>
 
