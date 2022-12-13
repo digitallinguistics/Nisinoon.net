@@ -43,6 +43,15 @@ jobs:
       - name: Build site
         run:  npm run build
 
+      - name: Deploy bibliography
+        run:  peaceiris/actions-gh-pages@v3
+        if:   ${{ github.ref == 'refs/heads/main' }}
+        with:
+          exclude_assets: !bibliography.pdf
+          github_token:   ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: zenodo
+          publish_dir:    ./dist/bibliography
+
       - name: Setup Pages
         uses: actions/configure-pages@v2
 
