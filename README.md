@@ -33,3 +33,7 @@ To edit the prose/copy on the website:
 [md]:      https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 [pages]:   https://github.com/dwhieb/Nisinoon.net/tree/main/src/pages
 [website]: https://nisinoon.net
+
+## Generating the bibliography PDF
+
+Currently, the bibliography PDF can only be generated manually. You can either download [Prince XML](https://www.princexml.com/) and run it on the Bibliography page, or run `npm run pdf` in the local git repo, then commit the changes.
