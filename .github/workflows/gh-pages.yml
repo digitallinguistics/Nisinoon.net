@@ -39,7 +39,7 @@ jobs:
         run:  wget https://www.princexml.com/download/prince_15-1_ubuntu22.04_amd64.deb
 
       - name: Install gdebi
-        run:  aptitude install gdebi
+        run:  apt install gdebi
 
       - name: Install Prince
         run:  gdebi prince_package_debian_amd64.deb
