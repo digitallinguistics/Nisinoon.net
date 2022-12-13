@@ -18,6 +18,15 @@ To edit the prose/copy on the website:
 
 ## How to update the bibliography
 
+### Semi-Manually
+
+1. Go to <https://github.com/dwhieb/Nisinoon.net/actions/workflows/gh-pages.yml>.
+2. Click the "Run workflow" button (top right). Use the default settings.
+
+### Manually
+
+**Note:** This is no longer necessary. Use the [Semi-Manually](#semi-manually) option above instead.
+
 1. In Zotero, right click the Nisinoon group folder and select "Export Library".
    - Make sure the format is "BibTex" and the character encoding is "Unicode (UTF-8)".
    - Save the file somewhere you can easily locate it.
