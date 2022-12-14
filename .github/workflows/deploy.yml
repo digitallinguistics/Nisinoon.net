@@ -34,6 +34,18 @@ jobs:
         with:
           node-version: 18
 
+      - name: Update apt
+        run:  sudo apt-get update
+
+      - name: Install gdebi-core
+        run:  sudo apt install gdebi --fix-missing
+
+      - name: Download Prince
+        run:  wget https://www.princexml.com/download/prince_15-1_ubuntu22.04_amd64.deb
+
+      - name: Install Prince
+        run:  sudo gdebi prince_15-1_ubuntu22.04_amd64.deb --non-interactive
+
       - name: Install dependencies
         run:  npm ci
 
