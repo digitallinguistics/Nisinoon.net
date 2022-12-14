@@ -20,7 +20,7 @@ To edit the prose/copy on the website:
 
 ### Automatically
 
-The bibliography updates automatically every Monday at 1:00 a.m. UTC (but only when there are new updates).
+The bibliography updates automatically every Monday at 1:00 a.m. UTC.
 
 ### Semi-Manually
 
