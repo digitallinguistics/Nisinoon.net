@@ -10,7 +10,7 @@ on:
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: write
-  pages: write
+  pages:    write
   id-token: write
 
 # Allow one concurrent deployment
@@ -22,7 +22,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url:  ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
 
@@ -47,18 +47,11 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if:   ${{ github.ref == 'refs/heads/main' }}
         with:
-          exclude_assets: '!bibliography.pdf'
+          enable_jekyll:  true
+          exclude_assets: 'index.html'
           github_token:   ${{ secrets.GITHUB_TOKEN }}
           publish_branch: zenodo
           publish_dir:    ./dist/bibliography
-
-      - name: Create release
-        uses: ncipollo/release-action@v1
-        with:
-          artifacts:               dist/bibliography/bibliography.pdf
-          artifactContentType:     application/pdf
-          artifactErrorsFailBuild: true
-          commit:                  zenodo
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
