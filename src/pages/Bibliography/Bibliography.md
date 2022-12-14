@@ -24,6 +24,8 @@ If you see an error in this bibliography, or would like to suggest any additions
 
 [Download this bibliography as a PDF.](/bibliography/bibliography.pdf) {.download-link}
 
+**Total references:** {% include './totalEntries.txt' %}
+
 *Last updated {{ "today" | date: "%B %e, %Y" }}.*
 
 {% include './entries.html' %}

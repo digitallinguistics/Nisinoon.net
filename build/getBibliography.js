@@ -18,6 +18,7 @@ const groupID       = `4815618`
 const url = `${ baseURL }/groups/${ groupID }/items`
 
 let progressBar
+let total
 
 async function makeRequest(bibtex = ``, start) {
 
@@ -35,7 +36,7 @@ async function makeRequest(bibtex = ``, start) {
 
   if (res.status !== 200) throw new Error(res.message)
 
-  const total = Number(res.headers.get(`Total-Results`))
+  total ??= Number(res.headers.get(`Total-Results`))
 
   progressBar ??= new ProgressBar(`:bar`, {
     curr: 100,
@@ -52,21 +53,21 @@ async function makeRequest(bibtex = ``, start) {
   if (next) {
     progressBar.tick(Number(next.start) - start)
     bibtex += await makeRequest(bibtex, next.start)
-  } else {
-    console.info(`\n`)
   }
 
   return bibtex
 
 }
 
-async function writeFile(bibtex) {
-  const __dirname = getDirname(fileURLToPath(import.meta.url))
-  const filePath  = joinPath(__dirname, `../bibliography/bibliography.bib`)
-  await outputFile(filePath, bibtex)
+async function writeFiles(bibtex) {
+  const __dirname  = getDirname(fileURLToPath(import.meta.url))
+  const bibtexPath = joinPath(__dirname, `../bibliography/bibliography.bib`)
+  const totalPath  = joinPath(__dirname, `../src/pages/Bibliography/totalEntries.txt`)
+  await outputFile(bibtexPath, bibtex)
+  await outputFile(totalPath, String(total))
 }
 
 export default async function getBibliography() {
   const bibtex = await makeRequest()
-  await writeFile(bibtex)
+  await writeFiles(bibtex)
 }
