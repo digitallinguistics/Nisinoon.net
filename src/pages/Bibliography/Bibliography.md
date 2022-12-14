@@ -4,12 +4,20 @@ permalink: /bibliography/
 title:     Bibliography
 ---
 
-{% capture less %}
+{% capture screen %}
+  {% include './screen.less' %}
+{% endcapture %}
+
+<style>
+  {{ screen | css }}
+</style>
+
+{% capture print %}
   {% include './print.less' %}
 {% endcapture %}
 
 <style media=print>
-  {{ less | css }}
+  {{ print | css }}
 </style>
 
 # Algonquian Components Bibliography
