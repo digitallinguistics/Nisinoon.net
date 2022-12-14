@@ -1,3 +1,3 @@
-import buildPDF from '../build/buildPDF.js'
+import generatePDF from '../build/generatePDF.js'
 
-await buildPDF()
+await generatePDF()

@@ -64,8 +64,10 @@ To update the latest version of the bibliography with Zenodo:
 8. Click the "Publish release" button at the bottom.
 9. Wait for the bibliography to be synced to Zenodo.
 
+**Developer note:** The version number in `package.json` will not be kept in sync with the version number of the release. It will stay at `v0.1.0`. This allows non-developers to create releases.
+
 ## Generating the bibliography PDF
 
-Currently, the bibliography PDF can only be generated manually. You can either download [Prince XML](https://www.princexml.com/) and run it on the Bibliography page, or run `npm run pdf` in the local git repo, then commit the changes.
+The bibliography PDF is automatically generated on CI during the build process.
 
-**Developer note:** The version number in `package.json` will not be kept in sync with the version number of the release. It will stay at `v0.1.0`. This allows non-developers to create releases.
+You can also generate the PDF manually using `npm run pdf`, or by downloading [Prince XML](https://www.princexml.com/) and running it on the Bibliography page.

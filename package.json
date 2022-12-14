@@ -18,7 +18,7 @@
     "prebuild": "node build/prebuild.js",
     "build": "npx @11ty/eleventy --config=.eleventy.cjs",
     "postbuild": "node build/postBuild.js",
-    "pdf": "node bin/buildPDF.js",
+    "pdf": "node bin/generatePDF.js",
     "prestart": "node build/prebuild.js",
     "start": "npx @11ty/eleventy --config=.eleventy.cjs --serve --port=3002",
     "test": "mocha LICENSE.test.js"
