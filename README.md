@@ -47,6 +47,25 @@ The bibliography updates automatically every Monday at 1:00 a.m. UTC (but only w
 [pages]:   https://github.com/dwhieb/Nisinoon.net/tree/main/src/pages
 [website]: https://nisinoon.net
 
+## Archiving the bibliography with Zenodo
+
+To update the latest version of the bibliography with Zenodo:
+
+1. Go to the [Nisinoon.net repo](https://github.com/dwhieb/Nisinoon.net): <https://github.com/dwhieb/Nisinoon.net>.
+2. Click on "Releases" on the right.
+3. Click "Draft a new release".
+4. In the "Choose a tag" dropdown, enter `v0.X.0`, where `X` is the next minor version number to use.
+   - If the previous release was `v0.2.0`, enter `v0.3.0`.
+   - You'll be notified if you attempt to use a version number that is already taken.
+   - Do not increment the major version number (the first number in the sequence).
+5. In the "target" dropdown, choose "zenodo".
+6. In the "Release title" field, enter the same tag as before: `v0.X.0`.
+7. Leave the release notes blank.
+8. Click the "Publish release" button at the bottom.
+9. Wait for the bibliography to be synced to Zenodo.
+
 ## Generating the bibliography PDF
 
 Currently, the bibliography PDF can only be generated manually. You can either download [Prince XML](https://www.princexml.com/) and run it on the Bibliography page, or run `npm run pdf` in the local git repo, then commit the changes.
+
+**Developer note:** The version number in `package.json` will not be kept in sync with the version number of the release. It will stay at `v0.1.0`. This allows non-developers to create releases.
