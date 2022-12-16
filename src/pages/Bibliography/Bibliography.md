@@ -4,14 +4,6 @@ permalink: /bibliography/
 title:     Bibliography
 ---
 
-{% capture screen %}
-  {% include './screen.less' %}
-{% endcapture %}
-
-<style>
-  {{ screen | css }}
-</style>
-
 {% capture print %}
   {% include './print.less' %}
 {% endcapture %}
