@@ -16,7 +16,7 @@ To edit the prose/copy on the website:
 5. A new pull request draft will be started. Add a note briefly explaining the changes you made, then click the "Create pull request" towards the bottom right.
 6. Wait for a developer to review your changes and merge them into the live version of the website.
 
-## How to update the bibliography
+## How to update the bibliography page + PDF
 
 ### Automatically
 
