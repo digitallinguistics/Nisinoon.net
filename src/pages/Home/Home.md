@@ -16,7 +16,13 @@ title:     Home
 
 A multilingual dictionary database of Algonquian derivational morphemes {.subtitle}
 
-![stylized trillium flower icon](/images/trillium.svg) {.trillium}
+<figure class=textile>
+  <img alt='A rectangular textile hand made by Angela Waupochick for the Nisinoon project, displaying a top-down view of two trillium flowers at opposite corners of a pink square in the center, bordered by side views of two trillium flowers along the top and bottom. Photo by Rodney Schreiner.' src=/images/textile.jpg>
+  <figcaption>
+    <span>Trillium applique by Angela Waupochick</span>
+    <span>Photo by Rodney Schreiner</span>
+  </figcaption>
+</figure>
 
 <section class=intro>
 
@@ -24,7 +30,7 @@ A multilingual dictionary database of Algonquian derivational morphemes {.subtit
 
   <p>This project is an NSF-funded cross-linguistic database of the components which make up words in Algonquian languages. There are two main goals:</p>
 
-  <ol>
+  <ol class=goals>
     <li>To provide tribes with a source for lexical expansion for their language revitalization/reclamation projects.</li>
     <li>To provide a basis for comprehensive reconstruction of Proto-Algonquian.</li>
   </ol>
@@ -65,14 +71,6 @@ A multilingual dictionary database of Algonquian derivational morphemes {.subtit
 - Rand Valentine, University of Wisconsin
 - Natalie Weber, Yale University
 - Arok Wolvengrey, First Nations University of Canada
-
-<figure class=textile>
-  <img alt='A rectangular textile hand made by Angela Waupochick for the Nisinoon project, displaying a top-down view of two trillium flowers at opposite corners of a pink square in the center, bordered by side views of two trillium flowers along the top and bottom. Photo by Rodney Schreiner.' src=/images/textile.jpg>
-  <figcaption>
-    <span>Trillium applique by Angela Waupochick</span>
-    <span>Photo by Rodney Schreiner</span>
-  </figcaption>
-</figure>
 
 ## What does Nisinoon mean? {% include 'backlink' %} {#nisinoon-meaning}
 

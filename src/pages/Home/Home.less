@@ -1,5 +1,12 @@
+@breakpoint: 50em;
+
 .home-page {
 
+  #contents {
+    clear: left;
+  }
+
+  // intro paragraph
   .intro {
     font-size  : x-large;
     font-family: var(--font-heading);
@@ -13,8 +20,8 @@
 
   .textile {
 
-    float          : right;
-    max-inline-size: 30%;
+    margin         : auto;
+    max-inline-size: 50%;
     padding        : 1em;
 
     figcaption {
@@ -30,8 +37,22 @@
 
   }
 
-  .trillium img {
-    margin: auto;
+  @media (min-width: @breakpoint) {
+
+    .goals {
+      transform: translateX(1.5em);
+    }
+
+    // heading
+    #introduction {
+      text-align: center;
+    }
+
+    .textile {
+      float            : left;
+      margin-inline-end: 1em;
+    }
+
   }
 
 }
