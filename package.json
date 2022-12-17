@@ -8,10 +8,10 @@
     "morphology"
   ],
   "homepage": "https://Nisinoon.net",
-  "bugs": "https://github.com/dwhieb/Nisinoon.net/issues",
+  "bugs": "https://github.com/digitallinguistics/Nisinoon.net/issues",
   "license": "See license in LICENSE.md.",
   "private": true,
-  "repository": "github:dwhieb/Nisinoon.net",
+  "repository": "github:digitallinguistics/Nisinoon.net",
   "type": "module",
   "scripts": {
     "bib": "node bin/getBibliography.js",

@@ -24,7 +24,7 @@ The bibliography updates automatically every Monday at 1:00 a.m. UTC.
 
 ### Semi-Manually
 
-1. Go to <https://github.com/dwhieb/Nisinoon.net/actions/workflows/gh-pages.yml>.
+1. Go to <https://github.com/digitallinguistics/Nisinoon.net/actions/workflows/gh-pages.yml>.
 2. Click the "Run workflow" button (top right). Use the default settings.
 
 ### Manually
@@ -34,24 +34,24 @@ The bibliography updates automatically every Monday at 1:00 a.m. UTC.
 1. In Zotero, right click the Nisinoon group folder and select "Export Library".
    - Make sure the format is "BibTex" and the character encoding is "Unicode (UTF-8)".
    - Save the file somewhere you can easily locate it.
-2. [Click here](https://github.com/dwhieb/Nisinoon.net/edit/main/bibliography/bibliography.bib) to edit the website's BibTeX file.
-   - full link: <https://github.com/dwhieb/Nisinoon.net/edit/main/bibliography/bibliography.bib>
+2. [Click here](https://github.com/digitallinguistics/Nisinoon.net/edit/main/bibliography/bibliography.bib) to edit the website's BibTeX file.
+   - full link: <https://github.com/digitallinguistics/Nisinoon.net/edit/main/bibliography/bibliography.bib>
    - OR: Nisinoon.net repo > `bibliography` folder > `bibliography.bib` > click the edit icon (top right)
 3. Copy the contents of the file you exported from Zotero and paste them into GitHub (replacing the content that was there).
    - Use Ctrl/Cmd + A to select all the text at once.
 4. Click the "Commit Changes" button at the bottom of the page.
    - Select the "Commit directly to the main branch." option.
 
-[GitHub]:  https://github.com/dwhieb/Nisinoon.net
+[GitHub]:  https://github.com/digitallinguistics/Nisinoon.net
 [md]:      https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-[pages]:   https://github.com/dwhieb/Nisinoon.net/tree/main/src/pages
+[pages]:   https://github.com/digitallinguistics/Nisinoon.net/tree/main/src/pages
 [website]: https://nisinoon.net
 
 ## Archiving the bibliography with Zenodo
 
 To update the latest version of the bibliography with Zenodo:
 
-1. Go to the [Nisinoon.net repo](https://github.com/dwhieb/Nisinoon.net): <https://github.com/dwhieb/Nisinoon.net>.
+1. Go to the [Nisinoon.net repo](https://github.com/digitallinguistics/Nisinoon.net): <https://github.com/digitallinguistics/Nisinoon.net>.
 2. Note the number of the latest release in the right sidebar.
 2. Click on "Releases" in that same section.
 3. Click "Draft a new release".
