@@ -16,7 +16,7 @@ To edit the prose/copy on the website:
 5. A new pull request draft will be started. Add a note briefly explaining the changes you made, then click the "Create pull request" towards the bottom right.
 6. Wait for a developer to review your changes and merge them into the live version of the website.
 
-## How to update the bibliography
+## How to update the bibliography page + PDF
 
 ### Automatically
 
@@ -52,14 +52,16 @@ The bibliography updates automatically every Monday at 1:00 a.m. UTC.
 To update the latest version of the bibliography with Zenodo:
 
 1. Go to the [Nisinoon.net repo](https://github.com/dwhieb/Nisinoon.net): <https://github.com/dwhieb/Nisinoon.net>.
-2. Click on "Releases" on the right.
+2. Note the number of the latest release in the right sidebar.
+2. Click on "Releases" in that same section.
 3. Click "Draft a new release".
-4. In the "Choose a tag" dropdown, enter `v0.X.0`, where `X` is the next minor version number to use.
-   - If the previous release was `v0.2.0`, enter `v0.3.0`.
+4. In the "Choose a tag" dropdown, enter the next version number to use.
+   - Release numbers go `vX.Y.Z`, where `v` stands for "version", `X` = major update, `Y` = minor update, and `Z` = fix.
+   - We'll mostly just be incrementing the minor version number, the `Y` in `vX.Y.Z`.
+   - e.g. If the previous release was `v0.2.0`, enter `v0.3.0`.
    - You'll be notified if you attempt to use a version number that is already taken.
-   - Do not increment the major version number (the first number in the sequence).
-5. In the "target" dropdown, choose "zenodo".
-6. In the "Release title" field, enter the same tag as before: `v0.X.0`.
+5. ‼️ **important:** In the "target" dropdown, choose "zenodo".
+6. In the "Release title" field, enter the same tag as before: `vX.Y.Z`.
 7. Leave the release notes blank.
 8. Click the "Publish release" button at the bottom.
 9. Wait for the bibliography to be synced to Zenodo.
