@@ -18,6 +18,10 @@ This is a collection of resources used in the [Nisinoon project][website] to col
 
 This material is based upon work supported by the National Science Foundation under Grant No. BCS-1953103.
 
+You can cite this bibliography using the following model:
+
+> Macaulay, Monica & Hunter Thompson Lockwood. {{ "today" | date: "%Y" }}. *Algonquian Components Bibliography*. doi:[10.5281/zenodo.5115261](https://doi.org/10.5281/zenodo.5115261).
+
 If you see an error in this bibliography, or would like to suggest any additions, please email Monica Macaulay at [mmacaula@wisc.edu](mailto:mmacaula@wisc.edu).
 
 ## References {.header}
