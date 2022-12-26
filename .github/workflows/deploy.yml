@@ -55,16 +55,6 @@ jobs:
       - name: Build site
         run:  npm run build
 
-      - name: Deploy bibliography
-        uses: peaceiris/actions-gh-pages@v3
-        if:   ${{ github.ref == 'refs/heads/main' }}
-        with:
-          enable_jekyll:  true
-          exclude_assets: 'index.html'
-          github_token:   ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: zenodo
-          publish_dir:    ./dist/bibliography
-
       - name: Setup Pages
         uses: actions/configure-pages@v2
 
