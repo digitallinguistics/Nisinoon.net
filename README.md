@@ -49,22 +49,7 @@ The bibliography updates automatically every Monday at 1:00 a.m. UTC.
 
 ## Archiving the bibliography with Zenodo
 
-To update the latest version of the bibliography with Zenodo:
-
-1. Go to the [Nisinoon.net repo](https://github.com/digitallinguistics/Nisinoon.net): <https://github.com/digitallinguistics/Nisinoon.net>.
-2. Note the number of the latest release in the right sidebar.
-2. Click on "Releases" in that same section.
-3. Click "Draft a new release".
-4. In the "Choose a tag" dropdown, enter the next version number to use.
-   - Release numbers go `vX.Y.Z`, where `v` stands for "version", `X` = major update, `Y` = minor update, and `Z` = fix.
-   - We'll mostly just be incrementing the minor version number, the `Y` in `vX.Y.Z`.
-   - e.g. If the previous release was `v0.2.0`, enter `v0.3.0`.
-   - You'll be notified if you attempt to use a version number that is already taken.
-5. ‼️ **important:** In the "target" dropdown, choose "zenodo".
-6. In the "Release title" field, enter the same tag as before: `vX.Y.Z`.
-7. Leave the release notes blank.
-8. Click the "Publish release" button at the bottom.
-9. Wait for the bibliography to be synced to Zenodo.
+The bibliography in Zenodo needs to be manually updated.
 
 **Developer note:** The version number in `package.json` will not be kept in sync with the version number of the release. It will stay at `v0.1.0`. This allows non-developers to create releases.
 
