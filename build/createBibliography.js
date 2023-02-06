@@ -21,7 +21,7 @@ export default async function createBibliography() {
     generateGraph: false,
   })
 
-  citer.sort([`author`, `issued`, `title`]) // adding "editor" to the sort list throws an error
+  citer.sort()
 
   function adjustHTML(id, raw) {
     return raw
