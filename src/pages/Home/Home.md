@@ -16,6 +16,8 @@ title:     Home
 
 A multilingual dictionary database of Algonquian derivational morphemes {.subtitle}
 
+[Explore the Nisinoon database here.][Nisinoon-project] {.db-link}
+
 <figure class=textile>
   <img alt='A rectangular textile hand made by Angela Waupochick for the Nisinoon project, displaying a top-down view of two trillium flowers at opposite corners of a pink square in the center, bordered by side views of two trillium flowers along the top and bottom. Photo by Rodney Schreiner.' src=/images/textile.jpg>
   <figcaption>
@@ -35,7 +37,7 @@ A multilingual dictionary database of Algonquian derivational morphemes {.subtit
     <li>To provide a basis for comprehensive reconstruction of Proto-Algonquian.</li>
   </ol>
 
-  <p>This database will be a web-based, open-access, centralized resource for Algonquian word components, providing community members and linguists with a set of data that has previously been difficult to access.</p>
+  <p>This database is be a web-based, open-access, centralized resource for Algonquian word components, providing community members and linguists with a set of data that has previously been difficult to access. <a href=https://data.digitallinguistics.io/projects/7b091efd-1be5-4a3c-b863-f6c7ee723096>Explore the database here.</a></p>
 
 </section>
 
@@ -106,7 +108,8 @@ If you see an error in this bibliography, or would like to suggest any additions
 - Brock Wroblewski, *Developer* (University of Wisconsin-Madison), 2018-2020
 
 <!-- LINKS -->
-[nisinoon-entry]: https://ojibwe.lib.umn.edu/main-entry/nisinoon-vii
-[website-danny]:  https://github.com/dwhieb
-[website-hunter]: https://miamioh.edu/myaamia-center/about/staff-faculty-affiliates/lockwood/index.html
-[website-monica]: https://monicamacaulay.com/
+[nisinoon-entry]:   https://ojibwe.lib.umn.edu/main-entry/nisinoon-vii
+[Nisinoon-project]: https://data.digitallinguistics.io/projects/7b091efd-1be5-4a3c-b863-f6c7ee723096
+[website-danny]:    https://github.com/dwhieb
+[website-hunter]:   https://miamioh.edu/myaamia-center/about/staff-faculty-affiliates/lockwood/index.html
+[website-monica]:   https://monicamacaulay.com/
