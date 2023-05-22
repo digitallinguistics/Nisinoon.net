@@ -52,7 +52,7 @@ The classic way to divide up Algonquian lexical categories at the very highest l
 2. Do not inflect
    - Particles
 
-Sometimes a few other things are included under the "do inflect" heading, e.g., pronouns, negators, etc. <dfn>Particle</dfn> is usually a vast category, and some authors have subdivided it further, adding, for example, prepositions (see, e.g., Oxford [[2007](#Oxford2007)] for discussion of the category <dfn>particle</dfn> in Innu-Aimun.
+Sometimes a few other things are included under the "do inflect" heading, e.g., pronouns, negators, etc. <dfn>Particle</dfn> is usually a vast category, and some authors have subdivided it further, adding, for example, prepositions (see, e.g., Oxford [[2007](#Oxford2007)] for discussion of the category <dfn>particle</dfn> in Innu-Aimun).
 
 Notice that there aren't any adjectives or adverbs (although some authors do use these labels).
 
@@ -300,7 +300,7 @@ In some cases you find sets of four, where all four verb types are based on a co
 
 ## Primary vs. Secondary Derivation {% include 'backlink' %} {#primary-vs-secondary-derivation}
 
-What was described in the [Components](#components) section is what is known as <dfn>primary derivation</dfn>, where an initial, an optional medial, and a final form a stem. But you can take a stem created this way and add another final to it to create a larger stem — this is called <dfn>secondary derivation</dfn>. (Authors use different terms for what I’m calling the stem here; some call it an initial or a derived initial.) These are illustrated below (again, from my Menominee grammar (Macaulay, [in prep](#MacaulayPrep)):
+What was described in the [Components](#components) section is what is known as <dfn>primary derivation</dfn>, where an initial, an optional medial, and a final form a stem. But you can take a stem created this way and add another final to it to create a larger stem — this is called <dfn>secondary derivation</dfn>. (Authors use different terms for what I’m calling the stem here; some call it an initial or a derived initial.) These are illustrated below (again, from my Menominee grammar (Macaulay, [in prep](#MacaulayPrep))):
 
 <table id=figure-2>
   <caption>Figure 2. Primary Derivation</caption>
@@ -439,7 +439,7 @@ Although we believe that this kind of relationship is purely historical, when an
 
 ## References {% include 'backlink' %} {#references}
 
-- Bloomfield, Leonard. 1962. <cite>The Menomini language</cite>. New Haven: Yale University Press. {#Bloomfield1962}
+- Bloomfield, Leonard. 1962. <cite>The Menomini Language</cite>. New Haven: Yale University Press. {#Bloomfield1962}
 - Bloomfield, Leonard. 1975. <cite>Menominee Lexicon</cite>. Ed. Charles F. Hockett. Milwaukee Public Museum Publications in Anthropology and History No. 3. {#Bloomfield1975}
 - Cowell, Andrew and Alonzo Moss Sr. 2008. <cite>The Arapaho Language</cite>. Boulder: University Press of Colorado. {#CowellMoss2008}
 - Drapeau, Lynn. 1980. <cite>Le rôle des racines en morphologie derivationelle</cite>. Recherches linguistiques à Montréal 14:313-326. {#Drapeau1980}
