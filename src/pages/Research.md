@@ -8,7 +8,7 @@ title:     Research
 
 The following is a list of research outputs that use or otherwise relate to the Nisinoon project.
 
-- Fedorchak, Rachel, Vade Kamenitsa-Hale, Hunter Thompson Lockwood, & Monica Macaulay. To appear. Strategies for Lexical Expansion in Algonquian Languages. *Language Documentation & Conservation*. (Link to data will be here)
+- Fedorchak, Rachel, Vade Kamenitsa-Hale, Hunter Thompson Lockwood, & Monica Macaulay. To appear. [Strategies for Lexical Expansion in Algonquian Languages](https://hdl.handle.net/10125/74735). *Language Documentation & Conservation*. (Link to data will be here)
 
 - Lockwood, Hunter Thompson and Monica Macaulay. To appear. Applicatives across Algonquian. *Applicative Constructions, De Gruyter Comparative Handbooks of Linguistics*, Denis Creissels and Fernando Zúñiga (eds.).
 
