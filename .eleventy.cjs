@@ -46,7 +46,7 @@ module.exports = function configureEleventy(config) {
       layouts:  `layouts`,
       output:   `dist`,
     },
-    templateFormats: [`md`, `njk`],
+    templateFormats: [`csv`, `md`, `njk`, `zip`],
   }
 
 }
