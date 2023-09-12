@@ -103,11 +103,11 @@ If you see an error in this bibliography, or would like to suggest any additions
 - Naneque LaTender, *Intern* (College of Menominee Nation), 2021
 - Sarah Lundquist, *Project Assistant* (University of Wisconsin-Madison), 2019
 - Gabrielle Mistretta, *Project Assistant* (University of Wisconsin-Madison), 2020-2022
-- Vivian Nash, *Project Assistant* (University of Wisconsin-Madison)
+- Vivian Nash, *Project Assistant* (University of Wisconsin-Madison), 2022–2023
 - Eleanor Sand, *Undergraduate Research Assistant*, *Bibliographer* (University of Wisconsin-Madison), 2021-2022
-- Leksi Scarr, *<abbr title='Research Experience for Undergraduates'>REU</abbr> Undergraduate Research Assistant* (University of Wisconsin-Madison)
+- Leksi Scarr, *Undergraduate Research Assistant* (University of Wisconsin-Madison), 2022–2023
 - Savana Stauss, *Bibliographer* (University of Wisconsin-Madison), 2018-2019
-- Jennifer Stoughton, *<abbr title='Research Experience for Undergraduates'>REU</abbr> Undergraduate Research Assistant* (University of Wisconsin-Madison)
+- Jennifer Stoughton, *Undergraduate Research Assistant* (University of Wisconsin-Madison), 2022–2023
 - Brock Wroblewski, *Developer* (University of Wisconsin-Madison), 2018-2020
 
 <!-- LINKS -->
