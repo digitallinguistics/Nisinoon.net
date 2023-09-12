@@ -84,7 +84,7 @@ A multilingual dictionary database of Algonquian derivational morphemes {.subtit
 
 ## Algonquian Components Bibliography {% include 'backlink' %} {#bibliography}
 
-The [Algonquian Components Bibliography](/bibliography) is a set of resources used in the Nisinoon project to collect data on derivational morphemes in Algonquian languages. (It is not intended to be an exhaustive bibliography on Algonquian languages!) It was compiled by [Monica Macaulay][website-monica] (University of Wisconsin-Madison) and [Hunter Lockwood][website-hunter] (Myaamia Center, Miami University) with the help of Rachel Fedorchak, Anushri Kartik-Narayan, Eleanor Sand, and Savana Stauss.
+The [Algonquian Components Bibliography](/bibliography) is a set of resources used in the Nisinoon project to collect data on derivational morphemes in Algonquian languages. (It is not intended to be an exhaustive bibliography on Algonquian languages!) It was compiled by Monica Macaulay (University of Wisconsin-Madison) and [Hunter Lockwood][website-hunter] (Myaamia Center, Miami University) with the help of Rachel Fedorchak, Anushri Kartik-Narayan, Eleanor Sand, and Savana Stauss.
 
 If you see an error in this bibliography, or would like to suggest any additions, please email Monica Macaulay at [mmacaula@wisc.edu](mailto:mmacaula@wisc.edu).
 
