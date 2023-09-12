@@ -12,9 +12,11 @@ To edit the prose/copy on the website:
    - Pages are written in [Markdown][md].
    - HTML is valid Markdown, so you can use HTML tags as well.
    - You can't use Markdown *inside* HTML tags. If you use an HTML tag, everything inside that tag needs to be written in HTML as well.
-4. At the bottom of the page, select "Create a new branch for this commit and start a pull request", then click the "Propose changes" button.
-5. A new pull request draft will be started. Add a note briefly explaining the changes you made, then click the "Create pull request" towards the bottom right.
-6. Wait for a developer to review your changes and merge them into the live version of the website.
+4. At the top right of the page, clik the green "Commit changes..." button. A box will pop up where you can leave a message describing your changes.
+   - Choose the "Commit directly to the `main` branch" option.
+   - Click the green "Propose changes" button in the bottom right of the box.
+6. A new pull request draft will be started. Click the green "Create pull request" towards the bottom right.
+7. Wait for a developer to review your changes and merge them into the live version of the website.
 
 ## How to update the bibliography page + PDF
 
@@ -42,11 +44,6 @@ The bibliography updates automatically every Monday at 1:00 a.m. UTC.
 4. Click the "Commit Changes" button at the bottom of the page.
    - Select the "Commit directly to the main branch." option.
 
-[GitHub]:  https://github.com/digitallinguistics/Nisinoon.net
-[md]:      https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-[pages]:   https://github.com/digitallinguistics/Nisinoon.net/tree/main/src/pages
-[website]: https://nisinoon.net
-
 ## Archiving the bibliography with Zenodo
 
 The bibliography in Zenodo needs to be manually updated.
@@ -58,3 +55,8 @@ The bibliography in Zenodo needs to be manually updated.
 The bibliography PDF is automatically generated on CI during the build process.
 
 You can also generate the PDF manually using `npm run pdf`, or by downloading [Prince XML](https://www.princexml.com/) and running it on the Bibliography page.
+
+[GitHub]:  https://github.com/digitallinguistics/Nisinoon.net
+[md]:      https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+[pages]:   https://github.com/digitallinguistics/Nisinoon.net/tree/main/src/pages
+[website]: https://nisinoon.net
