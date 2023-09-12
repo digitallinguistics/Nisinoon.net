@@ -54,11 +54,11 @@ A multilingual dictionary database of Algonquian derivational morphemes {.subtit
 ## Project Team {% include 'backlink' %} {#project-team}
 
 - [Monica Macaulay][website-monica], *Project Lead* (University of Wisconsin-Madison)
-- [Hunter Lockwood][website-hunter], *Co-Project Lead* (The Myaamia Center, and University of Wisconsin-Madison)
+- [Hunter Lockwood][website-hunter], *Co-Project Lead* (The Myaamia Center)
 - [Daniel W. Hieber][website-danny] ("Danny"), *Data Manager*, *Lead Developer* (Chitimacha Tribe of Louisiana)
-- Vivian Nash, *Project Assistant* (University of Wisconsin-Madison)
-- Leksi Scarr, *<abbr title='Research Experience for Undergraduates'>REU</abbr> Undergraduate Assistant* (University of Wisconsin-Madison)
-- Jennifer Stoughton, *<abbr title='Research Experience for Undergraduates'>REU</abbr> Undergraduate Assistant* (University of Wisconsin-Madison)
+- Jack Crabb, *<abbr title='Research Experience for Undergraduates'>REU</abbr> Undergraduate Research Assistant* (University of Wisconsin-Madison)
+- Eli Fox Baker, *<abbr title='Research Experience for Undergraduates'>REU</abbr> Undergraduate Research Assistant* (University of Wisconsin-Madison)
+- Elsa Mager, *<abbr title='Research Experience for Undergraduates'>REU</abbr> Undergraduate Research Assistant* (University of Wisconsin-Madison)
 
 ## Advisory Board {% include 'backlink' %} {#advisory-board}
 
@@ -68,7 +68,7 @@ A multilingual dictionary database of Algonquian derivational morphemes {.subtit
 - David Costa, Myaamia Center
 - Marie-Odile Junker, Carleton University
 - Will Oxford, University of Manitoba
-- Yolanda Pushetonequa, Meskwaki Nation
+- Yolanda Pushetonequa, Meskwaki Nation; University of Wisconsin-Madison
 - Michael Migizi Sullivan, Waadookodaading Ojibwe Language Immersion School
 - Rand Valentine, University of Wisconsin
 - Natalie Weber, Yale University
@@ -84,7 +84,7 @@ A multilingual dictionary database of Algonquian derivational morphemes {.subtit
 
 ## Algonquian Components Bibliography {% include 'backlink' %} {#bibliography}
 
-The [Algonquian Components Bibliography](/bibliography) is a set of resources used in the Nisinoon project to collect data on derivational morphemes in Algonquian languages. It was compiled by [Monica Macaulay][website-monica] (University of Wisconsin-Madison) and [Hunter Lockwood][website-hunter] (Myaamia Center, Miami University) with the help of Rachel Fedorchak, Anushri Kartik-Narayan, Eleanor Sand, and Savana Stauss. Please let us know if you find any errors in the references.
+The [Algonquian Components Bibliography](/bibliography) is a set of resources used in the Nisinoon project to collect data on derivational morphemes in Algonquian languages. (It is not intended to be an exhaustive bibliography on Algonquian languages!) It was compiled by [Monica Macaulay][website-monica] (University of Wisconsin-Madison) and [Hunter Lockwood][website-hunter] (Myaamia Center, Miami University) with the help of Rachel Fedorchak, Anushri Kartik-Narayan, Eleanor Sand, and Savana Stauss.
 
 If you see an error in this bibliography, or would like to suggest any additions, please email Monica Macaulay at [mmacaula@wisc.edu](mailto:mmacaula@wisc.edu).
 
@@ -103,8 +103,11 @@ If you see an error in this bibliography, or would like to suggest any additions
 - Naneque LaTender, *Intern* (College of Menominee Nation), 2021
 - Sarah Lundquist, *Project Assistant* (University of Wisconsin-Madison), 2019
 - Gabrielle Mistretta, *Project Assistant* (University of Wisconsin-Madison), 2020-2022
+- Vivian Nash, *Project Assistant* (University of Wisconsin-Madison)
 - Eleanor Sand, *Undergraduate Research Assistant*, *Bibliographer* (University of Wisconsin-Madison), 2021-2022
+- Leksi Scarr, *<abbr title='Research Experience for Undergraduates'>REU</abbr> Undergraduate Research Assistant* (University of Wisconsin-Madison)
 - Savana Stauss, *Bibliographer* (University of Wisconsin-Madison), 2018-2019
+- Jennifer Stoughton, *<abbr title='Research Experience for Undergraduates'>REU</abbr> Undergraduate Research Assistant* (University of Wisconsin-Madison)
 - Brock Wroblewski, *Developer* (University of Wisconsin-Madison), 2018-2020
 
 <!-- LINKS -->
