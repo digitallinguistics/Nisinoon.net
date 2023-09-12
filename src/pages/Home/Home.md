@@ -53,7 +53,7 @@ A multilingual dictionary database of Algonquian derivational morphemes {.subtit
 
 ## Project Team {% include 'backlink' %} {#project-team}
 
-- [Monica Macaulay][website-monica], *Project Lead* (University of Wisconsin-Madison)
+- Monica Macaulay, *Project Lead* (University of Wisconsin-Madison)
 - [Hunter Lockwood][website-hunter], *Co-Project Lead* (The Myaamia Center)
 - [Daniel W. Hieber][website-danny] ("Danny"), *Data Manager*, *Lead Developer* (Chitimacha Tribe of Louisiana)
 - Jack Crabb, *<abbr title='Research Experience for Undergraduates'>REU</abbr> Undergraduate Research Assistant* (University of Wisconsin-Madison)
@@ -115,4 +115,3 @@ If you see an error in this bibliography, or would like to suggest any additions
 [Nisinoon-project]: https://data.digitallinguistics.io/projects/7b091efd-1be5-4a3c-b863-f6c7ee723096
 [website-danny]:    https://github.com/dwhieb
 [website-hunter]:   https://miamioh.edu/myaamia-center/about/staff-faculty-affiliates/lockwood/index.html
-[website-monica]:   https://monicamacaulay.com/
