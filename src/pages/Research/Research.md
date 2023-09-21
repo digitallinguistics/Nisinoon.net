@@ -12,7 +12,7 @@ The following is a list of research outputs that use or otherwise relate to the 
 
 - Lockwood, Hunter Thompson and Monica Macaulay. To appear. Applicatives across Algonquian. *Applicative Constructions, De Gruyter Comparative Handbooks of Linguistics*, Denis Creissels and Fernando Zúñiga (eds.).
 
-- Lockwood, Hunter Thompson, Monica Macaulay, and Vivian Nash. In progress. Relative Roots across Algonquian.
+- Lockwood, Hunter Thompson, Monica Macaulay, and Vivian Nash. Relative Roots: Form and Function. Paper to be given at the 55th annual Algonquian Conference, October 2023, Edmonton, Alberta.
 
 - Macaulay, Monica, Hunter Thompson Lockwood, & Daniel W. Hieber. 2019. *New Words Needed: A comparative database for Algonquian lexical innovation*. Symposium on Historical-Comparative Linguistics for Language Revitalization, University of California, Davis, June 29-30. DOI: [10.13140/RG.2.2.35434.26568](https://doi.org/10.13140/RG.2.2.35434.26568). ([slides](https://doi.org/10.13140/RG.2.2.35434.26568))
 {.references-list}
